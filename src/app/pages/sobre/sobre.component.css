@@ -5,16 +5,19 @@
 }
 
 .institucional-card {
-    max-width: 900px;
-    width: 100%;
-    padding: 20px;
+  max-width: 900px;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #333333; 
 }
 
 .historia {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin: 20px 0;
-    text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 20px 0;
+  text-align: justify;
+  color: #555555;
 }
 
 .pilares-container {
