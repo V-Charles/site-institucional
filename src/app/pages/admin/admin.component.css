@@ -1,0 +1,42 @@
+.admin-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.table-card {
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.table-card mat-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.table-card mat-card-title {
+  color: #673ab7;
+  font-weight: bold;
+  margin: 0;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.colaboradores-table {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th.mat-mdc-header-cell {
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: #673ab7;
+}
