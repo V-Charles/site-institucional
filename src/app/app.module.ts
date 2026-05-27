@@ -15,6 +15,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatDialogModule } from '@angular/material/dialog';
 
 // Componentes
 import { HeaderComponent } from './components/header/header.component';
@@ -22,6 +23,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
 import { AdminComponent } from './pages/admin/admin.component';
+import { ColaboradorFormComponent } from './components/colaborador-form/colaborador-form.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { AdminComponent } from './pages/admin/admin.component';
     FooterComponent,
     HomeComponent,
     SobreComponent,
-    AdminComponent
+    AdminComponent,
+    ColaboradorFormComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +48,8 @@ import { AdminComponent } from './pages/admin/admin.component';
     MatDividerModule,
     MatTableModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
