@@ -1,8 +1,5 @@
 <?php
-    $host = "localhost";
-    $port = "3307";
-    $user = "root";
-    $pass = "";
+    require 'config.php';
 
     try {
         $pdo = new PDO("mysql:host=$host;port=$port", $user, $pass);

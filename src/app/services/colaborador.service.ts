@@ -7,7 +7,7 @@ import { Colaborador } from '../models/colaborador.model';
   providedIn: 'root'
 })
 export class ColaboradorService {
-  private apiUrl = 'http://localhost/api-agencia/index.php';
+  private apiUrl = '/api/index.php';
 
   constructor(private http: HttpClient) { }
 

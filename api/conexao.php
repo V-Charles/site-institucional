@@ -7,11 +7,7 @@
         exit(0);
     }
 
-    $host = "localhost";
-    $port = "3307";
-    $db_name = "agencia_db";
-    $user = "root";
-    $pass = "";
+    require 'config.php';
 
     try {
         $pdo = new PDO("mysql:host=$host;port=$port;dbname=$db_name", $user, $pass);
